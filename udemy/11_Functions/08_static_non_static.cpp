@@ -20,10 +20,10 @@ int* local(int x){
 int main(){
     int *ptr;
     ptr = static_local(10); //10 20
-    std::cout<< "test_ptr: " << *ptr << std::endl;  
-    static_local(10);
+    std::cout<< "test_ptr: " << *ptr << std::endl;  //20
+    static_local(10); // the value is retained by the address
     
-    ptr = local(10);
+    ptr = local(10); // the value is lost from the address
     std::cout<< "test_ptr: " << ptr << std::endl;
     
     return 0;
