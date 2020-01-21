@@ -11,7 +11,9 @@ void insertAtEnd(Node **headptr, int val);
 void insertAtBegin(Node **headptr, int val);
 void insert(Node **headptr, int pos, int val);
 void deleteNode(Node **headptr, int pos);
+void reverse(Node **headptr);
 void printNode(Node *head);
+
 
 int main(){
     Node * head = nullptr ;
@@ -22,7 +24,12 @@ int main(){
     insert(&head, 2, 4); // 3->2->4->1->0->nullptr
     insertAtEnd(&head, 10); // 3->2->4->1->0->10->nullptr
     deleteNode(&head, 2); // 3->2->1->0->10->nullptr
+    deleteNode(&head, 0); // 2->1->0->10->nullptr
     printNode(head);
+
+    reverse(&head);
+    printNode(head);
+
     return 0; 
 }
 
@@ -62,19 +69,45 @@ void insert(Node **headptr, int pos, int val){
 }
 
 void deleteNode(Node **headptr, int pos){
-    Node * temp = *headptr;
-    for (int i {0}; i<pos-1; i++){
-        temp = temp->next;
+    if (pos == 0){ 
+        Node * temp = *headptr;
+        *headptr = temp->next;
+        delete temp;
     }
-    Node * temp2 = temp->next;
-    temp->next = temp2->next;
-    delete temp2;
+    else{ 
+        Node * temp = *headptr;
+        for (int i {0}; i<pos-1; i++){
+            temp = temp->next;
+        }
+        Node * temp2 = temp->next;
+        temp->next = temp2->next;
+        delete temp2;
+    }    
+}
+
+void reverse(Node **headptr){
+    // head-> 1,2,3,4,5 -> Nullptr
+    // nullptr <-1,2,3,4,5 <-head
+
+    Node *prev, *current, *nextNode;
+    prev = nullptr;
+    current = *headptr;
+    nextNode = *headptr;
+
+    while(current!=nullptr){
+        nextNode = nextNode->next; // &2
+        current->next = prev;      // 1->nullptr
+        prev = current;            // 1
+        current = nextNode;        // 2
+    }
+    *headptr = prev;
 }
 
 void printNode(Node *head){
     Node * temp = head;
     do{
-        cout << temp->value << endl; 
+        cout << temp->value << ", "; 
         temp = temp->next;             
     }while (temp != nullptr);
+    cout << endl;
 }
