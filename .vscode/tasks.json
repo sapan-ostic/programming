@@ -1,27 +1,50 @@
+// {
+//     "version": "2.0.0",
+//     "tasks": [
+//         {
+//             "label": "build",
+//             "type": "shell",
+//             "command": "g++",
+//             "args": [
+//                 "${relativeFile}",
+//                 "-o",
+//                 "${fileBasenameNoExtension}"
+//             ],
+//             "group": {
+//                 "kind": "build",
+//                 "isDefault": true
+//             }
+//         },
+//         {
+//             "type": "shell",
+//             "label": "run",
+//             "command": "",
+//             "args": [
+//                 "./${fileDirname}\\${fileBasenameNoExtension}.exe"
+//             ],
+//         }
+//     ]
+// }
+
 {
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "g++ build and run",
             "type": "shell",
             "command": "g++",
             "args": [
-                "${relativeFile}",
+                "-std=c++11",
+                "${file}",
                 "-o",
-                "${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "&&",
+                "/${fileDirname}/${fileBasenameNoExtension}"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
-        },
-        {
-            "type": "shell",
-            "label": "run",
-            "command": "",
-            "args": [
-                "./${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
         }
     ]
-}
+    }
