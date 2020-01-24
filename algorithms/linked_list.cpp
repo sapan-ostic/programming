@@ -13,10 +13,13 @@ void insert(Node **headptr, int pos, int val);
 void deleteNode(Node **headptr, int pos);
 void reverse(Node **headptr);
 void printNode(Node *head);
+void printRecursive(Node *head);
+void printRevRecursive(Node *node);
 
 
 int main(){
     Node * head = nullptr ;
+    
     insertAtBegin(&head, 0); // 0->nullptr
     insertAtBegin(&head, 1); // 1-> 0 -> nullptr
     insertAtBegin(&head, 2); // 2->1->0->nullptr
@@ -25,11 +28,14 @@ int main(){
     insertAtEnd(&head, 10); // 3->2->4->1->0->10->nullptr
     deleteNode(&head, 2); // 3->2->1->0->10->nullptr
     deleteNode(&head, 0); // 2->1->0->10->nullptr
+    
     printNode(head);
 
     reverse(&head);
+    
     printNode(head);
-
+    printRecursive(head);
+    printRevRecursive(head);
     return 0; 
 }
 
@@ -111,3 +117,24 @@ void printNode(Node *head){
     }while (temp != nullptr);
     cout << endl;
 }
+
+void printRecursive(Node *node){
+    if(node == nullptr)
+        return;
+    cout << node->value << " ";
+    printRecursive(node->next);  
+}
+
+void printRevRecursive(Node *node){
+    if(node == nullptr){
+        cout<< endl;
+        return;
+    }    
+    printRevRecursive(node->next);
+    cout << node->value << " ";  
+}
+
+
+
+
+
