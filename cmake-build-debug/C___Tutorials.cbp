@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C___Tutorials"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="weakPointer">
+				<Option output="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/weakPointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 weakPointer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="weakPointer/fast">
+				<Option output="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/weakPointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 weakPointer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="macros_templates">
+				<Option output="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/macros_templates" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 macros_templates"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="macros_templates/fast">
+				<Option output="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/macros_templates" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 macros_templates/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="macros_functions">
+				<Option output="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/macros_functions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 macros_functions"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="macros_functions/fast">
+				<Option output="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/macros_functions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 macros_functions/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="basics_vectors">
+				<Option output="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/basics_vectors" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 basics_vectors"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="basics_vectors/fast">
+				<Option output="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/basics_vectors" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 basics_vectors/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sharedPointer">
+				<Option output="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/sharedPointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 sharedPointer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sharedPointer/fast">
+				<Option output="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/sharedPointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 sharedPointer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/agrsapan/Documents/C++\ Tutorials/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/agrsapan/Documents/C++ Tutorials/Macros/functions.cpp">
+			<Option target="macros_functions"/>
+		</Unit>
+		<Unit filename="/home/agrsapan/Documents/C++ Tutorials/Macros/templates.cpp">
+			<Option target="macros_templates"/>
+		</Unit>
+		<Unit filename="/home/agrsapan/Documents/C++ Tutorials/SmartPointers/sharedPointer.cpp">
+			<Option target="sharedPointer"/>
+		</Unit>
+		<Unit filename="/home/agrsapan/Documents/C++ Tutorials/SmartPointers/weakPointers.cpp">
+			<Option target="weakPointer"/>
+		</Unit>
+		<Unit filename="/home/agrsapan/Documents/C++ Tutorials/Vectors/basics_vectors.cpp">
+			<Option target="basics_vectors"/>
+		</Unit>
+		<Unit filename="/home/agrsapan/Documents/C++ Tutorials/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

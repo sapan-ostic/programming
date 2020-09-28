@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/agrsapan/Documents/C++ Tutorials/SmartPointers/sharedPointer.cpp
+iostream
+-
+memory
+-
+vector
+-
+

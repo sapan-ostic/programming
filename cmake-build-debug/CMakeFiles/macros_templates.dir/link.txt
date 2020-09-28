@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/macros_templates.dir/Macros/templates.cpp.o  -o macros_templates 
