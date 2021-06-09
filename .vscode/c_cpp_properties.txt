@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:\\mingw-w64\\include\\c++\\4.8.3"
+                "C:\\mingw-w64\\include\\c++\\4.8.3",
+                "/Users/sapan/ubuntu/programming/**"
             ],
             "defines": [
                 "_DEBUG",
