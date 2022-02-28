@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/main.dir/Macros/functions.cpp.o  -o main 

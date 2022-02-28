@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/weakPointer.dir/SmartPointers/weakPointers.cpp.o  -o weakPointer 

@@ -1,7 +1,0 @@
-/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/CMakeFiles/weakPointer.dir
-/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/CMakeFiles/macros_templates.dir
-/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/CMakeFiles/macros_functions.dir
-/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/CMakeFiles/basics_vectors.dir
-/home/agrsapan/Documents/C++ Tutorials/cmake-build-debug/CMakeFiles/sharedPointer.dir

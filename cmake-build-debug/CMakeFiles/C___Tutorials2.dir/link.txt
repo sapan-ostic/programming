@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/C___Tutorials2.dir/Macros/main2.cpp.o  -o C___Tutorials2 
