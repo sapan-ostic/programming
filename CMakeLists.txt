@@ -3,14 +3,6 @@ project(C___Tutorials)
 
 set(CMAKE_CXX_STANDARD 17)
 
+include_directories(include)
 # Algorithms
-add_executable(maps Algorithms/09_Maps/maps.cpp)
-
-# C++
-add_executable(basics_vectors C++/07_Vectors/basics_vectors.cpp)
-
-add_executable(macros_functions C++/Macros/functions.cpp)
-add_executable(macros_templates C++/Macros/templates.cpp)
-
-add_executable(sharedPointer C++/17_SmartPointers/sharedPointer.cpp)
-add_executable(weakPointer C++/17_SmartPointers/weakPointers.cpp)
+add_executable(test_instrumentor src/test_instrumentor.cpp)
