@@ -8,4 +8,4 @@ if(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR})
 endif()
 
 add_subdirectory(src)
-# add_subdirectory(test)
+add_subdirectory(test)
