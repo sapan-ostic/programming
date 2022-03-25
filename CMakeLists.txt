@@ -1,8 +1,11 @@
 cmake_minimum_required(VERSION 3.17)
-project(C___Tutorials)
+project(programming)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 11)
 
-include_directories(include)
-# Algorithms
-add_executable(test_instrumentor src/test_instrumentor.cpp)
+if(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_BINARY_DIR})
+  message(FATAL_ERROR "DO NOT BUILD in-tree.")
+endif()
+
+add_subdirectory(src)
+add_subdirectory(test)
